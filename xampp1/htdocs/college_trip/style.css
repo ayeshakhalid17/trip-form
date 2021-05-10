@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+*{
+    font-family: 'Indie Flower', cursive;
+}
+.container{
+    max-width:80%;
+    margin:auto;
+    padding:15px;
+}
+.container h1, h3{
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+input{
+    width: 75%;
+    margin: 2px auto;
+    padding: 4px;
+    font-size: 16px;
+    outline:none;
+}
+button{
+    background-color:rgb(103, 175, 184);
+    color:white;
+    cursor:pointer;
+    font-size:20px;
+    border:2px solid white;
+    box-shadow: none;
+    border: 2px solid white;
+    border-radius: 10%;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    width:100%;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.6;
+}
+.bg{
+    background-color:rgb(103, 175, 184);
+}
